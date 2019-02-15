@@ -18,7 +18,7 @@ function getTime() {
   var minutes = Math.floor((difference % msToHours) / msToMinutes);
   var seconds = Math.floor((difference % msToMinutes) / msToSeconds);
 
-  console.log(days, hours, minutes, seconds);
+//   console.log(days, hours, minutes, seconds);
 
   document.getElementById("days").innerHTML = days;
   document.getElementById("hours").innerHTML = hours;
