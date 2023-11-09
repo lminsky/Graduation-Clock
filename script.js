@@ -9,7 +9,7 @@ function getTime() {
   //Current date/time
   var now = new Date();
   //Graduation date
-  var graduation = new Date("June 15, 2023 18:00:00 GMT-0400");
+  var graduation = new Date("June 13, 2024 18:00:00 GMT-0400");
 
   var difference = graduation - now;
 
